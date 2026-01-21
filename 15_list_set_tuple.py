@@ -34,6 +34,10 @@ print()
 
 # list method
 
+# copy list 
+fruits_copy = fruits.copy()
+print(fruits_copy) # ['apple', 'orange', 'banana', 'coconut']
+
 # length of a collection
 print(len(fruits)) # 4
 
